@@ -13,13 +13,13 @@
   }],
   "autoload": {
     "psr-4": {
-      "ZhuoBin\\src\\": "src/"
+      "ZhuoBin\\src\\Helper\\": "src/Helper/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Zhuobin\\Src\\Helper\\HelperProvider"
+        "ZhuoBin\\Src\\Helper\\HelperProvider"
       ]
     }
   }
