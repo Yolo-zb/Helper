@@ -6,12 +6,12 @@
  * Date: 2019/6/17
  * Time: 上午10:43
  */
-namespace Zhuobin\src\Helper;
+namespace Zhuobin\Src\Helper;
 
 use Illuminate\Support\ServiceProvider;
 
 
-class HelperCore extends ServiceProvider
+class HelperProvider extends ServiceProvider
 {
     public function boot()
     {
