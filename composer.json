@@ -1,0 +1,26 @@
+{
+  "name":             "ZhuoBin/Helper",
+  "description":      "Helper-Function",
+  "keywords":         ["Helper"],
+  "homepage":         "https://github.com/Yolo-zb/Helper.git",
+  "time":             "2019-06-11",
+  "license":          "MIT",
+  "authors": [{
+    "name":         "Zhuo bin",
+    "email":        "1002435962@qq.com",
+    "homepage":     "https://github.com/Yolo-zb/Helper.git",
+    "role":         "Engineer"
+  }],
+  "autoload": {
+    "psr-4": {
+      "ZhuoBin\\src\\Helper\\": "src/helper/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ZhuoBin\\src\\Helper\\HelperCore"
+      ]
+    }
+  }
+}
