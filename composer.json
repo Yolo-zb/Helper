@@ -1,7 +1,7 @@
 {
-  "name":             "ZhuoBin/Helper",
-  "description":      "Helper-Function",
-  "keywords":         ["Helper"],
+  "name":             "zhuo-bin/helper",
+  "description":      "helper-function",
+  "keywords":         ["helper"],
   "homepage":         "https://github.com/Yolo-zb/Helper.git",
   "time":             "2019-06-11",
   "license":          "MIT",
