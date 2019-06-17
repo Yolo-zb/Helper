@@ -1,5 +1,5 @@
 {
-  "name":             "zhuo-bin/helper",
+  "name":             "zhuobin/helper",
   "description":      "helper-function",
   "keywords":         ["helper"],
   "homepage":         "https://github.com/Yolo-zb/Helper.git",
@@ -13,13 +13,13 @@
   }],
   "autoload": {
     "psr-4": {
-      "ZhuoBin\\src\\Helper\\": "src/helper/"
+      "ZhuoBin\\helper\\src\\Helper\\": "helper/src/Helper/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "ZhuoBin\\src\\Helper\\HelperCore"
+        "ZhuoBin\\helper\\src\\Helper\\HelperCore"
       ]
     }
   }
