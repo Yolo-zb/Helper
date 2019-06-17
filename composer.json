@@ -19,7 +19,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ZhuoBin\\helper\\src\\Helper\\HelperCore"
+        "ZhuoBin\\src\\Helper\\HelperCore"
       ]
     }
   }
