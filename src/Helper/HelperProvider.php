@@ -6,7 +6,7 @@
  * Date: 2019/6/17
  * Time: 上午10:43
  */
-namespace Zhuobin\Src\Helper;
+namespace Zhuobin\src\Helper;
 
 use Illuminate\Support\ServiceProvider;
 
