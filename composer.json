@@ -14,12 +14,10 @@
   "autoload": {
     "psr-4": {
       "Zhuobin\\src\\Helper\\": "src/Helper/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Zhuobin\\src\\Helper\\": "src/Helper/"
-    }
+    },
+    "classmap": [
+      "src/Helper/"
+    ]
   },
   "extra": {
     "laravel": {
