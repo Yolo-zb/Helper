@@ -16,6 +16,11 @@
       "Zhuobin\\src\\Helper\\": "src/Helper/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Zhuobin\\src\\Helper\\": "src/Helper/"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
