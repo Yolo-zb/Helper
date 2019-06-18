@@ -7,7 +7,7 @@
  * Time: 上午10:46
  */
 
-namespace Zhuobin\Src\Helper;
+namespace Zhuobin\src\Helper;
 
 class HelperInstance
 {
