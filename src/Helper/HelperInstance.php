@@ -7,7 +7,7 @@
  * Time: 上午10:46
  */
 
-namespace Zhuobin\src\Helper;
+namespace Zhuobin\Src\Helper;
 
 class HelperInstance
 {
@@ -20,7 +20,7 @@ class HelperInstance
     public function __construct()
     {
         // 初始化加载核心辅助函数
-        $this->load_helper('Helper');
+        $this->load_helper('LoadHelper');
     }
 
     /**

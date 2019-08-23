@@ -6,7 +6,7 @@
  * Date: 2019/6/17
  * Time: 上午10:43
  */
-namespace Zhuobin\src\Helper;
+namespace Zhuobin\Src\Helper;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,5 +24,8 @@ class HelperProvider extends ServiceProvider
         $this->app->singleton('helper', function () {
             return new HelperInstance();
         });
+
+        //实例helper
+        $this->app->make('helper');
     }
 }

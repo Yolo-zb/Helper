@@ -12,15 +12,14 @@
     "role":         "Engineer"
   }],
   "autoload": {
-    "files": ["src/Helper/LoadHelper.php"],
     "psr-4": {
-      "Zhuobin\\src\\Helper\\": "src/Helper"
+      "Zhuobin\\src\\Helper\\": "Src/Helper"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Zhuobin\\src\\Helper\\HelperProvider"
+        "Zhuobin\\Src\\Helper\\HelperProvider"
       ]
     }
   }

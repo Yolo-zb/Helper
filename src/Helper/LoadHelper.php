@@ -47,3 +47,4 @@ if (!function_exists('get_msec_to_mescdate')) {
         return $mescdate = str_replace('x', $sec, $date);
     }
 }
+
